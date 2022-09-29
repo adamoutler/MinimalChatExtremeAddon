@@ -9,20 +9,20 @@ RUN     apk update && \
             apk add --no-cache \
             git \
             nginx \
-            php7-ctype \
-            php7-fpm \
-            php7-exif \
-            php7-fileinfo \
-            php7-gd \
-            php7-iconv \
-            php7-json \
-            php7-ldap \
-            php7-pdo_sqlite \
-            php7-simplexml \
-            php7-tokenizer
+            php8-ctype \
+            php8-fpm \
+            php8-exif \
+            php8-fileinfo \
+            php8-gd \
+            php8-iconv \
+            php8-json \
+            php8-ldap \
+            php8-pdo_sqlite \
+            php8-simplexml \
+            php8-tokenizer
 
 # Configure directory permissions
-COPY    www.conf /etc/php7/php-fpm.d/zz-docker.conf
+COPY    www.conf /etc/php8/php-fpm.d/zz-docker.conf
 COPY    ingress.conf /etc/nginx/http.d/ingress.conf
 # Install application dependencies (unprivileged)
 
