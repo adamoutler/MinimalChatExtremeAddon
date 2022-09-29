@@ -1,8 +1,7 @@
 {
    "name": "Minimal Chat Extreme",
-   "version": "0.0000000000000000000000000000000000000000000000000000000000",
+   "version": "1",
    "slug": "minimal-chat-extreme",
-   "init": false,
    "url": "http://adamoutler.com",
    "description": "An extremely safe and minimal messaging for notes and chat",
    "arch": ["armhf", "armv7", "aarch64","i386","amd64"],
